@@ -12,25 +12,28 @@ The selected model will be used to develop the Context-Aware Business Email Assi
 
 ## Compared Models
 
-| Model | Environment | Plan |
-|--------|-------------|------|
-| ChatGPT (GPT-5.5) | Web | Plus |
-| Claude Sonnet | Web | Pro |
-| Gemini 2.5 Pro | Web | Google AI Pro |
+| Model | Provider | Testing Environment |
+|-------|----------|---------------------|
+| GPT-5.5 | OpenAI | Codyssey Learning Nato |
+| Claude Sonnet 4.6 | Anthropic | Codyssey Learning Nato |
+| Gemini 3 Flash | Google | Codyssey Learning Nato |
+
+**Date Tested:** 2026-07-28
 
 **Date Tested**
 
 2026-07-28
 
 ---
-
 ## Test Environment
 
-- Platform: Web
+- Platform: Codyssey Learning Nato
+- Access Method: Web
 - Language: English
 - Same prompt used for every model
 - Default model settings
 - No external tools or reference documents
+- Token usage multiplier varied by model according to the Codyssey platform
 
 ---
 
