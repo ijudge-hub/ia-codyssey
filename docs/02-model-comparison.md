@@ -28,6 +28,7 @@ The selected model will be used to develop the Context-Aware Business Email Assi
 - Platform: Codyssey Learning Nato
 - Access Method: Web
 - Language: English
+- Subscription Plan: Paid access through the Codyssey Learning Nato platform
 - Same prompt used for every model
 - Default model settings
 - No external tools or reference documents
