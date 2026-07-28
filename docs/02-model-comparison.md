@@ -67,6 +67,72 @@ Report a possible documentation issue to a company executive.
 - Clearly requests confirmation
 - Avoids sounding accusatory
 
+#### Prompt
+
+You are a professional business email assistant.
+
+Write an email based on the following information.
+
+Recipient Role:
+Executive (Decision Maker)
+
+Purpose:
+Report a possible documentation issue and ask for confirmation.
+
+Situation:
+While reviewing the latest version of the user manual, I noticed that the explanation of the Density/Window section may not match the current software interface.
+
+Requirements:
+- Briefly explain the issue.
+- Ask whether the section has already been updated.
+- Offer to revise the document if necessary.
+- Do not sound like you are blaming anyone.
+- Keep the email concise.
+
+Tone:
+Professional, respectful, concise.
+
+Output Format:
+Subject
+
+Email
+
+Reasoning (2–3 bullet points explaining why you wrote it this way)
+
+#### GPT-5.5 Result
+
+Subject  
+Possible Update Needed: Density/Window Section in User Manual
+
+Email  
+Dear [Name],
+
+While reviewing the latest version of the user manual, I noticed that the explanation in the Density/Window section may not fully align with the current software interface.
+
+Could you please confirm whether this section has already been updated or is scheduled for revision? If needed, I would be happy to revise the document accordingly.
+
+Best regards,  
+[Your Name]
+
+Reasoning  
+- The email raises the issue neutrally without assigning blame.  
+- It asks for confirmation before taking action, which is appropriate for an executive decision maker.  
+- It remains concise while clearly offering support for the revision.
+
+
+#### Claude Sonnet 4.6 Result
+
+(여기에 Claude 결과)
+
+#### Gemini 3.1 Pro Result
+
+(여기에 Gemini 결과)
+
+#### Notes
+
+- GPT-5.5: ...
+- Claude: ...
+- Gemini: ...
 ---
 
 ### Test Case 2 — Engineer
