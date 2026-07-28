@@ -12,7 +12,7 @@ This project aims to design a prompt engineering workflow that generates busines
 
 This assistant is intended for professionals who frequently write business emails, including:
 
-- Project managers
+- Executives
 - Designers
 - Engineers
 - Sales representatives
