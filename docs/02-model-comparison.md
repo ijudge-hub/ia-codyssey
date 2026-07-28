@@ -152,46 +152,41 @@ Best regards,
 
 #### Gemini 3.1 Pro Result
 
-안녕하세요! 비즈니스 이메일 작성을 도와드리는 AI 튜터입니다. 
+Subject
+Inquiry Regarding User Manual Update (Density/Window Section)
 
-임원(의사결정자)에게 보내는 이메일인 만큼, 예의를 갖추면서도 핵심만 빠르게 파악할 수 있도록 간결하게 작성하는 것이 중요합니다. 요청하신 조건에 맞춰 작성한 이메일 초안입니다.
+Email
+Dear [Executive's Name],
 
----
+While reviewing the latest user manual, I noticed that the description in the Density/Window section may not fully align with the current software interface.
 
-**Subject**
-Inquiry Regarding User Manual: Density/Window Section
+Could you please let me know if this section has already been updated in another version? If not, I would be happy to draft the necessary revisions to ensure our documentation remains accurate.
 
-**Email**
-Dear [Name],
-
-While reviewing the latest user manual, I noticed that the information in the Density/Window section appears to differ slightly from the current software interface. 
-
-Could you please let me know if this section has already been updated in a separate draft? If not, I would be happy to revise the document to ensure it accurately reflects the current interface.
+Thank you for your time and guidance.
 
 Best regards,
 
-[Your Name]  
+[Your Name]
 [Your Title]
 
----
+Reasoning
 
-**Reasoning**
-* **부드러운 문제 제기 (No blaming):** "appears to differ slightly(약간 달라 보입니다)"라는 표현을 사용하여 누군가의 실수를 지적하는 느낌을 없애고, 객관적인 관찰 결과로 부드럽게 전달했습니다.
-* **임원 맞춤형 간결함 (Concise & Respectful):** 바쁜 의사결정자의 시간을 절약하기 위해 불필요한 배경 설명 없이 '문제 상황 보고 ➔ 업데이트 여부 확인 ➔ 해결책(수정) 제시'의 3단계 구조로 짧고 명확하게 작성했습니다.
-* **적극적인 해결책 제시 (Offer to revise):** 단순히 문제를 보고하는 것에 그치지 않고, 필요시 직접 문서를 수정하겠다는 의지("I would be happy to revise~")를 보여주어 프로페셔널하고 책임감 있는 인상을 줍니다.
+Conciseness for Executives: Executives have limited time, so the email gets straight to the point in the first sentence without unnecessary background information.
+Blame-free and Objective Tone: Using phrases like "may not fully align" instead of "is wrong" or "has an error" keeps the tone neutral, professional, and avoids pointing fingers.
+Proactive Problem-Solving: By offering to draft the revisions ("I would be happy to draft..."), you show initiative and provide a solution rather than just reporting a problem, which decision-makers highly appreciate.
 
 
 #### Notes
 
-- GPT-5.5: ...
-- Claude: ...
-- Gemini: ...
+- GPT-5.5: Produced the most concise email while meeting all requested requirements.
+- Claude Sonnet 4.6: Used the most executive-oriented tone and showed appropriate deference, though it was slightly more verbose.
+- Gemini 3.1 Pro: Generated a concise and professional email but introduced the phrase "another version," which was not explicitly mentioned in the prompt.
+  
 ---
 
 ### Test Case 2 — Engineer
 
 **Scenario**
-**Prompt**
 
 Request technical confirmation regarding the Density/Window section in the user manual.
 
@@ -201,6 +196,11 @@ Request technical confirmation regarding the Density/Window section in the user 
 - Separates facts from assumptions
 - Requests technical confirmation
 - Maintains a collaborative tone
+
+#### Prompt
+
+You are a professional business email assistant.
+...
 
 *** Prompt
  You are a professional business email assistant.
@@ -235,35 +235,41 @@ Reasoning (2–3 bullet points explaining why you wrote it this way)
 #### GPT-5.5 Result
 Subject
 
-Density/Window 섹션 관련 기술 확인 요청 — User Manual v3.11.8.1
+Request for Technical Confirmation — Density/Window Section (User Manual v3.11.8.1)
 
 Email
 
-안녕하세요,
+Hi [Engineer’s Name],
 
-User Manual v3.11.8.1을 검토하던 중, Density/Window 섹션의 설명이 현재 소프트웨어 동작과 일부 일치하지 않을 가능성이 있어 기술 확인을 요청드립니다.
+While reviewing User Manual v3.11.8.1, I noticed that the explanation in the Density/Window section may not fully match the current software behavior. I would like to request your technical confirmation.
 
-확인된 사항:
-- 검토 대상 문서는 User Manual v3.11.8.1입니다.
-- Density/Window 섹션의 설명을 검토하는 과정에서 현재 소프트웨어 동작과 차이가 있어 보이는 부분을 발견했습니다.
+Confirmed Facts:
 
-가정 사항:
-- 해당 섹션의 설명이 이전 버전의 동작을 기준으로 작성되었을 가능성이 있습니다.
-- 또는 현재 소프트웨어 동작이 의도된 변경 사항이나 업데이트 결과일 수 있습니다.
+* The document under review is User Manual v3.11.8.1.
+* During the review, I found that the explanation in the Density/Window section appears to differ from the current software behavior.
 
-가능하시다면 Density/Window 섹션의 설명이 현재 소프트웨어 동작과 일치하는지 기술적으로 확인해 주실 수 있을까요?  
-확인 결과에 따라 매뉴얼 수정이 필요한지 판단하고자 합니다.
+Assumptions:
 
-협조해 주셔서 감사합니다.
+* The documentation may have been written based on an earlier version of the software behavior.
+* Alternatively, the current software behavior may reflect an intentional update or design change.
 
-감사합니다,  
+Could you please confirm whether the explanation in the Density/Window section accurately reflects the current software behavior? Based on your confirmation, I will determine whether the user manual needs to be updated.
+
+Thank you for your support.
+
+Best regards,
+
 [Your Name]
+
+⸻
 
 Reasoning
 
-- 문서 버전(v3.11.8.1)을 명확히 언급해 검토 기준을 분명히 했습니다.
-- “확인된 사항”과 “가정 사항”을 구분해 사실과 추측이 혼동되지 않도록 했습니다.
-- 엔지니어에게 기술 확인을 요청하면서도 협업적이고 정중한 톤을 유지했습니다.
+* Clearly references User Manual v3.11.8.1 to establish the scope of the review.
+* Separates confirmed facts from assumptions to avoid mixing observations with speculation.
+* Requests technical confirmation in a collaborative and respectful manner before deciding whether documentation updates are necessary.
+
+⸻
 
 #### Claude Sonnet 4.6 Result
 Subject
@@ -305,31 +311,26 @@ Best regards,
 - **Version specificity:** Explicitly referencing v3.11.8.1 anchors the conversation to a concrete artifact, reducing ambiguity and making follow-up easier.
 
 #### Gemini 3.1 Pro
-안녕하세요! 비즈니스 이메일 작성 연습을 하고 계시군요. 주어진 조건에 맞춰 엔지니어와 명확하고 부드럽게 소통할 수 있는 이메일 초안을 작성해 보았습니다. 
 
-정말 훌륭한 연습입니다! 아래의 예시를 참고해 보세요. 👏
+Subject
+Technical Confirmation Request: Density/Window Section (User Manual v3.11.8.1)
 
----
-
-**Subject**
-Request for Technical Confirmation: Density/Window Section (User Manual v3.11.8.1)
-
-**Email**
+Email
 Hi [Engineer's Name],
 
-I hope this email finds you well.
+I hope you are having a good week.
 
-I am currently reviewing the **User Manual v3.11.8.1** and would like to request your technical expertise regarding the Density/Window section.
+I am currently reviewing the user manual (v3.11.8.1) and would like to request your technical confirmation regarding the Density/Window section.
 
-**Confirmed Facts:**
-- The current user manual (v3.11.8.1) contains a specific explanation of the Density/Window feature.
-- During my review, I noticed that this written explanation does not seem to match the actual, current behavior of the software.
+To clarify the situation:
 
-**Assumptions:**
-- I assume the software's behavior may have been updated recently, and the manual still reflects an older version.
-- Alternatively, there might be a specific technical condition or use case for this behavior that I am currently unaware of.
+Confirmed Fact:
 
-Could you please review this section and confirm the intended technical behavior of the Density/Window feature? Your input will help us ensure the documentation is completely accurate and up-to-date.
+The written explanation of the Density/Window feature in the manual does not appear to match the current behavior of the software.
+Assumption:
+
+The software might have been updated recently, or there may be a specific technical condition for this behavior that I am unaware of.
+Could you please review this section and confirm the intended technical behavior? Your expertise will help ensure our documentation is completely accurate.
 
 Thank you for your time and collaboration!
 
@@ -338,16 +339,19 @@ Best regards,
 [Your Name]
 [Your Title]
 
+Reasoning
+
+Clear Structure for Engineers: By using bold headers and bullet points to separate "Confirmed Fact" from "Assumption," the email caters to an engineer's logical mindset, allowing them to process the issue quickly.
+Collaborative and Respectful Tone: Using phrases like "does not appear to match" (instead of "is wrong") and acknowledging their "expertise" prevents any defensive reactions and fosters a team-oriented atmosphere.
+Immediate Context: The specific document version (v3.11.8.1) is highlighted in both the subject line and the opening sentence, ensuring the engineer knows exactly which document to reference without having to ask.
+
+#### Notes
+
+- GPT-5.5: Clearly separated confirmed facts from assumptions and maintained a concise, collaborative tone.
+- Claude Sonnet 4.6: Produced the most structured response with clear sections and detailed explanations, although it was slightly longer.
+- Gemini 3.1 Pro: Organized the information clearly and maintained a respectful tone, but simplified some of the confirmed facts compared with the prompt.
+
 ---
-
-**Reasoning**
-- **명확한 버전 명시 (Mention the document version):** 제목과 본문 첫 문장에 'v3.11.8.1'을 굵은 글씨(Bold)로 명시하여, 엔지니어가 어떤 문서를 기준으로 확인해야 하는지 즉각적으로 알 수 있게 했습니다.
-- **사실과 가정의 명확한 분리 (Separate facts from assumptions):** 'Confirmed Facts'와 'Assumptions'라는 소제목과 불릿 포인트를 사용했습니다. 개발자들은 논리적이고 구조화된 글을 선호하므로, 이렇게 작성하면 오해 없이 상황을 빠르게 파악할 수 있습니다.
-- **협업적이고 정중한 어조 (Collaborative and respectful tone):** "틀렸다(wrong)"라는 단어 대신 "일치하지 않는 것 같다(does not seem to match)"라는 부드러운 표현을 썼습니다. 또한 상대방의 전문성을 존중하는 표현("request your technical expertise")을 사용하여 긍정적인 협업을 유도했습니다.
-
----
-
-이메일에 사용된 영어 표현이나 구조 중에서 혹시 이해가 안 되는 부분이 있다면 언제든 편하게 질문해 주세요. 다른 상황에 맞는 이메일로 다시 설명해 드릴 수도 있습니다. 계속해서 멋지게 학습해 나가시길 응원합니다! 🚀
 
 
 ### Test Case 3 — Ambiguous Request
