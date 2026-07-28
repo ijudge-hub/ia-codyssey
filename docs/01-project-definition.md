@@ -4,24 +4,23 @@
 
 This project aims to develop an LLM-based business email assistant that automatically adjusts the tone, structure, and content of emails according to the recipient's role and communication context.
 
-Unlike general AI email generators, this assistant analyzes who the recipient is before generating an email. The same business situation should produce different emails depending on whether the recipient is an executive, engineer, client, or external organizer.
-
+Unlike general AI email generators, this assistant analyzes who the recipient is before generating an email. 
 The goal is to improve communication efficiency while reducing unnecessary revisions and preventing hallucinated information.
 
 ---
 
 ## Problem Statement
 
-Business professionals spend significant time revising emails because communication style changes depending on:
+Business professionals spend significant time revising emails because communication strategies vary depending on:
 
 - recipient role
 - technical knowledge
 - organizational relationship
 - communication purpose
 
-Existing AI assistants mainly focus on grammar and fluency, but they often fail to adapt the email strategy to different business contexts.
+Existing AI email assistants mainly focus on grammar and fluency, but they often fail to adapt writing strategies to different business contexts. They may also make unsupported assumptions when essential information is missing instead of requesting clarification.
 
-This project addresses that limitation by designing a context-aware prompt engineering workflow.
+This project addresses these limitations by designing a context-aware prompt engineering workflow that adapts email generation to the recipient's role, avoids unsupported assumptions, and requests clarification whenever essential information is missing.
 
 ---
 
@@ -29,7 +28,7 @@ This project addresses that limitation by designing a context-aware prompt engin
 
 The assistant should:
 
-- identify recipient type
+- identify the recipient's role
 - adjust email tone automatically
 - organize information based on business priority
 - avoid unsupported assumptions
@@ -81,17 +80,14 @@ The assistant generates:
 
 ## Example Business Scenarios
 
-Scenario 1
-Reporting a document issue to an executive.
+Example 1
+Report a documentation issue and request confirmation.
 
-Scenario 2
-Requesting technical confirmation from an engineer.
+Example 2
+Request technical confirmation before updating documentation.
 
-Scenario 3
-Asking an exhibition organizer about submission requirements.
-
-Scenario 4
-Following up with an external vendor.
+Example 3
+Handle an incomplete request by asking clarification questions before drafting the email.
 
 ---
 
@@ -104,3 +100,4 @@ The assistant should:
 - avoid hallucinated facts
 - ask clarification questions when required
 - generate reusable business-quality emails
+
