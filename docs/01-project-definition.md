@@ -3,9 +3,8 @@
 ## Project Overview
 
 This project aims to develop an LLM-based business email assistant that automatically adjusts the tone, structure, and content of emails according to the recipient's role and communication context.
-
-Unlike general AI email generators, this assistant analyzes who the recipient is before generating an email. 
-The goal is to improve communication efficiency while reducing unnecessary revisions and preventing hallucinated information.
+Unlike general AI email generators, this assistant analyzes the available communication context, identifies the recipient's role, and generates business emails tailored to the specific situation.
+The goal is to improve communication efficiency, reduce unnecessary revisions, and minimize hallucinations.
 
 ---
 
@@ -32,8 +31,8 @@ The assistant should:
 - adjust email tone automatically
 - organize information based on business priority
 - avoid unsupported assumptions
-- request clarification when information is missing
-- generate reusable business-quality emails
+- request clarification when essential information is missing
+- generate consistent, business-quality emails
 
 ---
 ## Target Users
@@ -54,19 +53,16 @@ This assistant is designed for professionals who regularly communicate through b
 The assistant receives structured information before generating an email.
 
 ```text
-Recipient Type:
-Relationship:
+Recipient:
+Relationship (optional):
 Purpose:
 Situation:
-Required Information:
-Desired Action:
-Tone:
-Urgency:
-Constraints:
+Supporting Information:
+Desired Outcome:
+Special Instructions (optional):
 ```
 
 ---
-
 ## Expected Output
 
 The assistant generates:
@@ -80,13 +76,13 @@ The assistant generates:
 
 ## Example Business Scenarios
 
-Example 1
+### Example 1
 Report a documentation issue and request confirmation.
 
-Example 2
+### Example 2
 Request technical confirmation before updating documentation.
 
-Example 3
+### Example 3
 Handle an incomplete request by asking clarification questions before drafting the email.
 
 ---
@@ -97,7 +93,7 @@ The assistant should:
 
 - adapt email strategy according to recipient role
 - maintain professional business tone
-- avoid hallucinated facts
+- minimize hallucinations by avoiding unsupported information
 - ask clarification questions when required
 - generate reusable business-quality emails
 
