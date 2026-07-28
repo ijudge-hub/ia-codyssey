@@ -122,11 +122,64 @@ Reasoning
 
 #### Claude Sonnet 4.6 Result
 
-(여기에 Claude 결과)
+Subject
+Possible Update Needed: Density/Window Section in User Manual
+
+---
+
+Email
+
+Dear [Name],
+
+I hope this message finds you well.
+
+While conducting a routine review of the latest user manual, I noticed that the Density/Window section may not fully reflect the current software interface. This could potentially cause confusion for end users.
+
+Could you confirm whether this section has already been updated or is currently under revision? If not, I would be glad to make the necessary corrections at your direction.
+
+Thank you for your time, and please let me know how you would like to proceed.
+
+Best regards,
+[Your Name]
+[Title / Department]
+
+---
+
+**Reasoning**
+- **Neutral framing:** Phrases like *"I noticed"* and *"may not fully reflect"* present the issue as an observation rather than a criticism, keeping the tone collaborative and non-accusatory.
+- **Executive-appropriate brevity:** The email respects the recipient's time by delivering only essential information — the issue, a clear question, and an offer to help — without unnecessary detail.
+- **Deference to authority:** Closing with *"at your direction"* and *"how you would like to proceed"* reinforces that the executive holds decision-making authority, which is appropriate given their role.
 
 #### Gemini 3.1 Pro Result
 
-(여기에 Gemini 결과)
+안녕하세요! 비즈니스 이메일 작성을 도와드리는 AI 튜터입니다. 
+
+임원(의사결정자)에게 보내는 이메일인 만큼, 예의를 갖추면서도 핵심만 빠르게 파악할 수 있도록 간결하게 작성하는 것이 중요합니다. 요청하신 조건에 맞춰 작성한 이메일 초안입니다.
+
+---
+
+**Subject**
+Inquiry Regarding User Manual: Density/Window Section
+
+**Email**
+Dear [Name],
+
+While reviewing the latest user manual, I noticed that the information in the Density/Window section appears to differ slightly from the current software interface. 
+
+Could you please let me know if this section has already been updated in a separate draft? If not, I would be happy to revise the document to ensure it accurately reflects the current interface.
+
+Best regards,
+
+[Your Name]  
+[Your Title]
+
+---
+
+**Reasoning**
+* **부드러운 문제 제기 (No blaming):** "appears to differ slightly(약간 달라 보입니다)"라는 표현을 사용하여 누군가의 실수를 지적하는 느낌을 없애고, 객관적인 관찰 결과로 부드럽게 전달했습니다.
+* **임원 맞춤형 간결함 (Concise & Respectful):** 바쁜 의사결정자의 시간을 절약하기 위해 불필요한 배경 설명 없이 '문제 상황 보고 ➔ 업데이트 여부 확인 ➔ 해결책(수정) 제시'의 3단계 구조로 짧고 명확하게 작성했습니다.
+* **적극적인 해결책 제시 (Offer to revise):** 단순히 문제를 보고하는 것에 그치지 않고, 필요시 직접 문서를 수정하겠다는 의지("I would be happy to revise~")를 보여주어 프로페셔널하고 책임감 있는 인상을 줍니다.
+
 
 #### Notes
 
