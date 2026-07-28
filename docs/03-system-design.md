@@ -263,3 +263,18 @@ Before writing:
 Produce concise, professional, and actionable business emails while following the requested output format exactly.
 
 If the available information is insufficient, request clarification before generating the final email.
+
+---
+
+## Experiment Environment
+
+The system prompt was designed and evaluated under the following environment.
+
+- Model: GPT-5.5
+- Platform: Codyssey AI Note (Web)
+- Subscription: Educational License
+- Date: 2026-07-28
+- Parameters:
+  - Temperature: Default (not user-configurable)
+  - Top_p: Default
+  - Max tokens: Default
