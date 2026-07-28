@@ -16,7 +16,7 @@ The selected model will be used to develop the Context-Aware Business Email Assi
 |-------|----------|---------------------|
 | GPT-5.5 | OpenAI | Codyssey Learning Nato |
 | Claude Sonnet 4.6 | Anthropic | Codyssey Learning Nato |
-| Gemini 3.1 pro | Google | Codyssey Learning Nato |
+| Gemini 3.1 Pro | Google | Codyssey Learning Nato |
 
 
 
@@ -257,7 +257,7 @@ Best regards,
 
 [Your Name]
 
-⸻
+---
 
 Reasoning
 
@@ -265,7 +265,7 @@ Reasoning
 * Separates confirmed facts from assumptions to avoid mixing observations with speculation.
 * Requests technical confirmation in a collaborative and respectful manner before deciding whether documentation updates are necessary.
 
-⸻
+---
 
 #### Claude Sonnet 4.6 Result
 Subject
@@ -306,7 +306,7 @@ Best regards,
 - **Concise and respectful ask:** The request is framed as a collaborative check rather than a correction, which encourages a constructive response without implying fault.
 - **Version specificity:** Explicitly referencing v3.11.8.1 anchors the conversation to a concrete artifact, reducing ambiguity and making follow-up easier.
 
-#### Gemini 3.1 Pro
+#### Gemini 3.1 Pro Result
 
 Subject
 Technical Confirmation Request: Density/Window Section (User Manual v3.11.8.1)
@@ -363,7 +363,7 @@ The user wants to contact an external vendor, but some essential information is 
 * Avoids unsupported assumptions
 * Maintains a professional and collaborative tone
 
-⸻
+---
 
 #### Prompt
 
@@ -463,7 +463,15 @@ To ensure we send a clear and actionable email to the vendor, could you please p
 #### Notes
 Gemini 3.1 Pro: Correctly identified the missing information and requested clarification before drafting the email. The response was clear and professional, but it included an additional tutor-style note that was outside the requested output format.
 
-## Score Summary
+### Scoring Scale
+
+| Score | Description |
+|-------:|-------------|
+| 5 | Fully satisfies the evaluation criterion with no significant issues. |
+| 4 | Satisfies the criterion well, but includes minor issues that do not significantly affect the overall quality. |
+| 3 | Partially satisfies the criterion, with noticeable weaknesses or inconsistencies. |
+| 2 | Meets the criterion only to a limited extent, with several significant issues. |
+| 1 | Does not satisfy the criterion or produces an inappropriate response. |
 
 ## Score Summary
 
@@ -472,15 +480,47 @@ Gemini 3.1 Pro: Correctly identified the missing information and requested clari
 | Accuracy | 5 | 5 | 5 |
 | Role Adaptation | 5 | 5 | 5 |
 | Professional Tone | 5 | 5 | 5 |
-| Structure | 5 | 5 | 5 |
+| Structure | 5 | 5 | 4 |
 | Clarification Ability | 5 | 5 | 5 |
 | Hallucination Prevention | 5 | 5 | 4 |
-| **Overall** | **5.0** | **5.0** | **4.8** |
+| **Overall** | **5.0** | **5.0** | **4.7** |
+
+### Scoring Rationale
+
+- **GPT-5.5**
+
+  - Received high scores because it consistently followed the prompt requirements, adapted its tone to the recipient role, and produced concise and practical responses.
+
+  - It clearly separated facts from assumptions in the engineer scenario and appropriately requested clarification in the incomplete-request scenario.
+
+  - No unsupported information was introduced.
+
+- **Claude Sonnet 4.6**
+
+  - Received high scores for its strong structure, professional tone, and clear role adaptation.
+
+  - It explained its reasoning in more detail than the other models and showed appropriate deference in the executive scenario.
+
+  - Its responses were slightly more verbose, but this did not significantly reduce task performance.
+
+- **Gemini 3.1 Pro**
+
+  - Received high scores for role adaptation, professional tone, and clarification ability.
+
+  - It received a score of 4 in Hallucination Prevention because it introduced unsupported details, such as “another version” and the claim that vendors manage hundreds of orders.
+
+  - It received a score of 4 in Structure because it added a tutor-style note outside the requested output format.
+
+  - These issues were minor and did not significantly reduce the overall usefulness of the responses.
+
+Scoring is based on the results of the three test cases. All models performed well overall. GPT-5.5 and Claude Sonnet 4.6 received the highest scores for consistently meeting the prompt requirements, while Gemini 3.1 Pro received slightly lower scores in Hallucination Prevention and Structure because it introduced unsupported details and added content outside the requested output format.
 
 ---
 
 ## Final Decision
 
 GPT-5.5 was selected as the final model for this project.
+
+Across all three test cases, GPT-5.5 consistently generated concise, professional, and role-appropriate business emails while avoiding unsupported assumptions.
 
 While Claude Sonnet 4.6 also performed exceptionally well, GPT-5.5 produced more concise and task-focused responses while consistently adhering to the requested output format, making it the most suitable choice for this project.
