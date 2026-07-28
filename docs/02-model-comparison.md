@@ -200,10 +200,6 @@ Request technical confirmation regarding the Density/Window section in the user 
 #### Prompt
 
 You are a professional business email assistant.
-...
-
-*** Prompt
- You are a professional business email assistant.
 
 Write an email based on the following information.
 
@@ -354,43 +350,137 @@ Immediate Context: The specific document version (v3.11.8.1) is highlighted in b
 ---
 
 
-### Test Case 3 — Ambiguous Request
+### Test Case 3 — Incomplete Business Request
 
 **Scenario**
 
-The user only says:
-
-> "Please write an email."
+The user wants to contact an external vendor, but some essential information is missing.
 
 **Evaluation Focus**
 
-- Requests clarification
-- Avoids assumptions
-- Collects sufficient information before writing
+* Requests clarification before generating an email
+* Identifies missing information
+* Avoids unsupported assumptions
+* Maintains a professional and collaborative tone
+
+⸻
+
+#### Prompt
+
+You are a professional business email assistant.
+
+Write an email based on the following information.
+
+Recipient Role:
+External Vendor
+
+Purpose:
+Request information about an exhibition booth order.
+
+Situation:
+The user wants to contact the vendor regarding an exhibition booth order, but the following information is not provided:
+- order number
+- event name
+- specific request
+
+If the available information is insufficient to produce an accurate email, respond appropriately before drafting the email.
+
+Maintain a professional and collaborative tone.
+
+Output Format:
+
+Questions for Clarification
+
+Reasoning (2–3 bullet points)
+
+
+#### GPT-5.5 Result
+**Questions for Clarification**
+
+To draft an accurate and professional email to the external vendor, could you please provide the following details?
+
+1. **Order number:** What is the exhibition booth order number or reference ID?
+2. **Event name:** Which exhibition or event is this booth order for?
+3. **Specific request:** What would you like to ask the vendor?  
+   - Order status confirmation?  
+   - Booth specifications?  
+   - Delivery/setup schedule?  
+   - Invoice or payment details?  
+   - Changes to the booth order?
+
+**Reasoning**
+
+- The order number and event name are necessary for the vendor to identify the correct booth order quickly.
+- The specific request must be clear so the email can be focused and actionable.
+- Asking for clarification first prevents sending a vague email and helps maintain a professional, collaborative tone.
+
+#### Notes
+GPT-5.5: Focused on gathering the essential information before drafting the email. The response was concise, practical, and avoided unsupported assumptions, although it included a few more follow-up options than necessary. (Concise & Task-focused)
+
+#### Claude Sonnet 4.6 Result
+**Questions for Clarification**
+
+Before drafting the email, I need a few details to ensure the message is accurate and professional.
+
+1. **Order Number:** What is the booth order number or reference ID associated with this vendor?
+2. **Event Name:** Which exhibition or event is this order related to?
+3. **Specific Request:** What would you like to ask or communicate to the vendor? For example:
+   - Confirm order status or delivery schedule?
+   - Request changes to booth size or specifications?
+   - Follow up on an invoice or payment?
+   - Ask about setup or logistics?
+
+Once you provide these details, I will draft a clear and professional email right away.
 
 ---
 
+**Reasoning**
+- **Accuracy over speed:** Sending an email without an order number or event name forces the vendor to ask follow-up questions, causing unnecessary delays and appearing unprofessional.
+- **Focused messaging:** Without knowing the specific request, the email would be too vague to be actionable — a clear purpose keeps the communication efficient and respectful of the vendor's time.
+- **Professional credibility:** A well-informed email with correct reference details builds trust with external vendors and reflects positively on your organization.
+
+#### Notes
+Claude Sonnet 4.6: Requested the necessary information and clearly explained why each detail was important before drafting the email. The response was highly structured and user-guiding, though more explanatory than required for a simple business task. (Structured & Explanatory)
+
+#### Gemini 3.1 Pro Result
+**Questions for Clarification**
+
+To ensure we send a clear and actionable email to the vendor, could you please provide the following missing details?
+
+1. **Order Number:** What is the specific order number or reference ID for this booth?
+2. **Event Name:** Which upcoming exhibition or trade show is this for?
+3. **Specific Request:** What exactly do we need to ask them? (e.g., confirming setup times, requesting additional electrical outlets, checking shipping status, or modifying the booth size)
+
+**Reasoning**
+
+*   **Ensures Quick Identification:** Vendors manage hundreds of orders across multiple shows; providing the exact event name and order number helps them locate your file immediately without confusion.
+*   **Drives Actionable Responses:** Specifying the exact request prevents unnecessary back-and-forth emails and allows the vendor to provide a complete answer in their first reply.
+*   **Maintains Professionalism:** Sending a complete, well-structured inquiry demonstrates respect for the vendor's time and fosters a collaborative, efficient working relationship.
+
+---
+*Tutor's Note: You are doing a great job recognizing when information is missing! In real business situations, pausing to gather these facts before writing is a crucial skill. Once you have these details ready, just let me know, and we will draft a highly effective email together!*
+
+#### Notes
+Gemini 3.1 Pro: Correctly identified the missing information and requested clarification before drafting the email. The response was clear and professional, but it included an additional tutor-style note that was outside the requested output format.
+
 ## Score Summary
 
-| Evaluation | ChatGPT | Claude | Gemini |
-|------------|---------|---------|---------|
-| Accuracy | | | |
-| Role Adaptation | | | |
-| Professional Tone | | | |
-| Structure | | | |
-| Clarification Ability | | | |
-| Hallucination Prevention | | | |
-| Overall | | | |
+## Score Summary
+
+| Evaluation | GPT-5.5 | Claude Sonnet 4.6 | Gemini 3.1 Pro |
+|------------|:-------:|:-----------------:|:--------------:|
+| Accuracy | 5 | 5 | 5 |
+| Role Adaptation | 5 | 5 | 5 |
+| Professional Tone | 5 | 5 | 5 |
+| Structure | 5 | 5 | 5 |
+| Clarification Ability | 5 | 5 | 5 |
+| Hallucination Prevention | 5 | 5 | 4 |
+| **Overall** | **5.0** | **5.0** | **4.8** |
 
 ---
 
 ## Final Decision
 
-The final model will be selected based on the overall evaluation results rather than personal preference.
+GPT-5.5 was selected as the final model for this project.
 
-Particular emphasis will be placed on:
-
-- adapting writing strategy according to the recipient's role,
-- preventing unsupported assumptions,
-- maintaining a professional tone,
-- and producing reusable business-quality emails.
+While Claude Sonnet 4.6 also performed exceptionally well, GPT-5.5 produced more concise and task-focused responses while consistently adhering to the requested output format, making it the most suitable choice for this project.
