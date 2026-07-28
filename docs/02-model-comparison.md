@@ -16,7 +16,7 @@ The selected model will be used to develop the Context-Aware Business Email Assi
 |-------|----------|---------------------|
 | GPT-5.5 | OpenAI | Codyssey Learning Nato |
 | Claude Sonnet 4.6 | Anthropic | Codyssey Learning Nato |
-| Gemini 3 Flash | Google | Codyssey Learning Nato |
+| Gemini 3.1 pro | Google | Codyssey Learning Nato |
 
 **Date Tested:** 2026-07-28
 
