@@ -14,9 +14,9 @@ The selected model will be used to develop the Context-Aware Business Email Assi
 
 | Model | Provider | Testing Environment |
 |-------|----------|---------------------|
-| GPT-5.5 | OpenAI | Codyssey Learning Nato |
-| Claude Sonnet 4.6 | Anthropic | Codyssey Learning Nato |
-| Gemini 3.1 Pro | Google | Codyssey Learning Nato |
+| GPT-5.5 | OpenAI | Codyssey Learning Neito |
+| Claude Sonnet 4.6 | Anthropic | Codyssey Learning Neito |
+| Gemini 3.1 Pro | Google | Codyssey Learning Neito |
 
 
 
