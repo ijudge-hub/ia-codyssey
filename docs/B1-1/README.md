@@ -1,6 +1,4 @@
-# Mission B1-1
-
-**Prompt Engineering**
+# Mission B1-1: Prompt Engineering
 
 ## Documents
 
