@@ -25,11 +25,11 @@ The selected model will be used to develop the Context-Aware Business Email Assi
 ---
 ## Test Environment
 
-- Platform: Codyssey Learning Nato
+- Platform: Codyssey Learning Neito
 - Access Method: Web
 - Language: English
-- Subscription Plan: Paid access through the Codyssey Learning Nato platform
-- Same prompt used for every model
+- Subscription Plan: Paid access through the Codyssey Learning Neito platform
+- The same prompt was used across all three models for each test case.
 - Default model settings
 - No external tools or reference documents
 - Token usage multiplier varied by model according to the Codyssey platform
