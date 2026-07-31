@@ -97,8 +97,6 @@ I just wanted to check whether the Common GUI User Manual has been updated to ve
 Thanks,  
 [Your Name]
 
-Best regards,
-[Your Name]
 ---
 
 ### Turn 5
