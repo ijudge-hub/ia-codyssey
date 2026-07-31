@@ -140,10 +140,16 @@ Follow these steps.
 
 ### Output Format
 
+When sufficient information is available:
+
 - Subject
 - Email
 - Reasoning
 
+When essential information is missing:
+
+- Clarification Questions
+- Reasoning
 ---
 
 ## Improvements from v1 to v2
@@ -237,7 +243,7 @@ The revised prompt successfully reduced unsupported assumptions by requiring cla
 
 ---
 
-# Few-shot Examples
+## Few-shot Examples
 
 ## Example 1 — Executive
 
@@ -371,6 +377,8 @@ Do not fabricate facts, software behavior, policies, or technical specifications
 
 ### Validation Rule 5
 Maintain a professional tone while acknowledging uncertainty when necessary.
+
+---
 ## Hallucination Validation Tests
 
 For this project, hallucination is defined as generating unsupported facts, technical specifications, policies, version information, or business details that were not provided by the user.
