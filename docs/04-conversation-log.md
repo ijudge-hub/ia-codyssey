@@ -109,7 +109,6 @@ I think the manual wasn't in Dropbox.
 
 Subject: Update on Common GUI User Manual Version 4.3.5
 
-**Subject:** Common GUI User Manual Version 4.3.5
 
 Hi Sam and Gordon,
 
