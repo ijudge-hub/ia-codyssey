@@ -310,4 +310,6 @@ Compared with the initial draft, the final version demonstrated the following im
 
 ## Reproducibility Note
 
-The conversation log has been organized and edited for readability while preserving the original conversation flow.
+The conversation was conducted using GPT-5.5 on the Codyssey Learning Neito platform with default model settings.
+
+The conversation log is presented as a representative example of the prompt workflow and has been anonymized where appropriate.
