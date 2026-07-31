@@ -1,9 +1,5 @@
 # ia-codyssey
-to connect Codyssey and Github
-
-# Codyssey AI Assignments
-
-This repository contains my assignments for the Codyssey AI course.
+Assignments and project documentation for the Codyssey AI course.
 
 ---
 
