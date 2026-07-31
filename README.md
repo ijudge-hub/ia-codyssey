@@ -3,7 +3,7 @@ Assignments and project documentation for the Codyssey AI course.
 
 ---
 
-## Mission 1 – Prompt Engineering
+## B1-1: Prompt Engineering
 
 | No. | Document |
 |-----|----------|
@@ -14,11 +14,19 @@ Assignments and project documentation for the Codyssey AI course.
 
 ---
 
-## Mission 2
+## B1-2: Multimodal Content
 
 Coming soon.
 
 ---
+
+## B 1-3: No-Code Automation Workflow Design
+
+Coming soon.
+
+---
+
+
 
 Author
 
