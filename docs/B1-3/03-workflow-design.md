@@ -1,3 +1,4 @@
+<img width="1637" height="946" alt="project1-n8n-workflow" src="https://github.com/user-attachments/assets/1dc3c25c-3d82-4631-b92f-7000fae3fb70" />
 # 03. 워크플로우 설계
 
 ## 1. 설계 원칙
