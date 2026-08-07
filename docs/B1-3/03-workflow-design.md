@@ -115,17 +115,11 @@ flowchart LR
 
 ### 3-5. 구현 화면
 
-```md
-![AI 뉴스 자동 수집 n8n 워크플로우](./images/project2-n8n-workflow.png)
+#### n8n AI 뉴스 자동 수집 워크플로우
 
-![If 노드 True 및 False 분기 결과](./images/project2-if-result.png)
+<img width="1721" height="998" alt="project2-n8n-workflow" src="https://github.com/user-attachments/assets/d1175f3b-31cb-4084-877a-38db45120c87" />
 
-![Google Sheets 뉴스 분류 결과](./images/project2-sheets-result.png)
 
-![Discord AI 뉴스 알림 결과](./images/project2-discord-result.png)
-```
-
----
 
 ## 4. 자동 실행 구조
 
