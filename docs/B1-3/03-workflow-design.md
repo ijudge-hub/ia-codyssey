@@ -59,7 +59,7 @@ flowchart LR
 
 ```md
 ![n8n 고객 문의 자동 분류 워크플로우](./images/project1-n8n-workflow.png)
-
+<img width="1637" height="946" alt="project1-n8n-workflow" src="https://github.com/user-attachments/assets/1dc3c25c-3d82-4631-b92f-7000fae3fb70" />
 ![Make 고객 문의 자동 분류 워크플로우](./images/project1-make-workflow.png)
 ```
 <img width="939" height="893" alt="Poject-make-workflow" src="https://github.com/user-attachments/assets/190503e7-a042-42c3-8f81-71e311c2d49f" />
