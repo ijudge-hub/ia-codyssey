@@ -1,6 +1,6 @@
 # Mission B1-3: No-Code Automation Workflow Design
 
-Make와 n8n을 활용하여 반복 업무 자동화 워크플로우를 설계하고 구현한 결과물입니다.
+Make와 n8n을 활용하여 반복 업무 자동화 워크플로우를 설계하고 구현한 결과물
 
 ## Documents
 
