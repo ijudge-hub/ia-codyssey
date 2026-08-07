@@ -94,6 +94,7 @@ AI 뉴스로 분류된 기사만 Discord `#ai-news` 채널에 제목, 출처, �
 ### 3-4. 자동 실행 상태
 
 프로젝트 2 워크플로우는 n8n에서 **Published** 상태로 설정했다. 따라서 수동 실행 없이 Schedule Trigger가 매일 오전 9시에 뉴스 수집을 시작한다.
+<img width="1542" height="989" alt="published" src="https://github.com/user-attachments/assets/de8016cb-fc87-42bc-a59e-18c3198b13e0" />
 
 ---
 
