@@ -23,7 +23,7 @@
 
 #### Google Sheets 상태 업데이트 결과
 
-<!-- Google Sheets 실행 결과 이미지를 이 아래에 첨부 -->
+<img width="1702" height="719" alt="2-1구글 시크 처리결과" src="https://github.com/user-attachments/assets/0cb6c2a6-2c2b-4202-aa01-cb9570f495df" />
 
 ### 2-2. Discord 알림 결과
 
@@ -31,15 +31,24 @@
 
 #### Discord 긴급 문의 알림 결과
 
-<!-- 긴급 문의 Discord 결과 이미지를 이 아래에 첨부 -->
+<img width="1393" height="912" alt="2-2 디스코드 알림결과" src="https://github.com/user-attachments/assets/c1b66041-612e-493e-a5ca-62767b8b815e" />
 
 #### Discord 일반 문의 알림 결과
 
-<!-- 일반 문의 Discord 결과 이미지를 이 아래에 첨부 -->
+<img width="1254" height="805" alt="2-2 디스코드 일반문의" src="https://github.com/user-attachments/assets/e1d536fc-8e4e-4ecc-b6e3-c644239a1f2e" />
 
 ### 2-3. 실행 검증
 
 프로젝트 1은 Make와 n8n에서 동일한 입력, 조건 분기, Discord 알림, Google Sheets 상태 업데이트 구조로 구현했다. 두 도구 모두 실제 데이터가 입력된 뒤 분기와 후속 Action이 실행되는 것을 확인했다.
+
+#### Make 실행 결과
+
+<img width="1440" height="977" alt="2-3 메이크 실행 히스토리 성공표시" src="https://github.com/user-attachments/assets/26e1ef4e-2e00-4729-97ca-a567bf2ff0a1" />
+<img width="1502" height="872" alt="2-3 메이크 실행 히스토리 성공표시2" src="https://github.com/user-attachments/assets/8297027d-643c-4b13-8105-aceeb0b5a1dc" />
+
+
+#### n8n 실행 결과
+<img width="1537" height="857" alt="2-3n8n실행결과에서 노트 성공,분기 결과 보이는화면" src="https://github.com/user-attachments/assets/8c81e309-18f1-48e5-aaed-6e5b1cf9485f" />
 
 ---
 
@@ -52,17 +61,27 @@ Google News RSS에서 수집한 IT 뉴스는 기사 제목에 AI 키워드가 �
 - True: `AI 뉴스` 시트에 기록 → Discord `#ai-news` 알림 전송
 - False: `일반 뉴스` 시트에 기록
 
-#### True / False 분기 실행 결과
+#### True 실행결과
 
-<!-- n8n If 노드의 True와 False 결과 이미지를 이 아래에 첨부 -->
+<img width="1067" height="916" alt="3-1 true 실행기록" src="https://github.com/user-attachments/assets/011750d2-0f80-423b-b389-330957f5b9d2" />
+
+#### False 실행결과
+
+<img width="1703" height="967" alt="3-1 False 경로실행 증명" src="https://github.com/user-attachments/assets/e82a1210-43d1-4e55-a4b0-331b63a80e88" />
+
+
 
 ### 3-2. Google Sheets 기록 결과
 
 AI 관련 기사는 `AI 뉴스` 탭에, 나머지 IT 기사는 `일반 뉴스` 탭에 기록되도록 구성했다. 두 탭은 수집일시, 뉴스유형, 제목, 링크, 출처의 동일한 열 구조를 사용한다.
 
-#### AI 뉴스 및 일반 뉴스 시트 기록 결과
+#### AI 뉴스 시트 기록 결과 일반 뉴스 시트 기록 결과
 
-<!-- Google Sheets의 AI 뉴스와 일반 뉴스 탭 결과 이미지를 이 아래에 첨부 -->
+<img width="1671" height="994" alt="3-2 구글시트_AI 뉴스 탭" src="https://github.com/user-attachments/assets/3c8adf6c-8535-4fe7-ac23-4aea0457bc7a" />
+
+#### 일반 뉴스 시트 기록 결과
+
+<img width="1527" height="993" alt="3-2 구글시트 일반 뉴스 탭" src="https://github.com/user-attachments/assets/7bcade3f-b1e0-46e6-8a79-8fd55162fd7d" />
 
 ### 3-3. Discord 알림 결과
 
@@ -70,7 +89,7 @@ AI 뉴스로 분류된 기사만 Discord `#ai-news` 채널에 제목, 출처, �
 
 #### Discord #ai-news 알림 결과
 
-<!-- Discord AI 뉴스 알림 결과 이미지를 이 아래에 첨부 -->
+<img width="1641" height="967" alt="3-3 디스코드 ai-news 알림" src="https://github.com/user-attachments/assets/c6b3b225-9467-4a1a-8b84-467abc13eb28" />
 
 ### 3-4. 자동 실행 상태
 
