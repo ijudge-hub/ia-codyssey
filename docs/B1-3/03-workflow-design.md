@@ -55,11 +55,11 @@ flowchart LR
 
 ### 2-4. 구현 화면
 
-####n8n 고객 문의 자동 분류 워크 플로우
+#### n8n 고객 문의 자동 분류 워크 플로우
 
 <img width="1637" height="946" alt="n8n 고객 문의 자동 분류 워크플로우" src="https://github.com/user-attachments/assets/f5b5ac75-aab5-4c47-806e-f587f23cc975" />
 
-####Make 고객 문의 자동 분류 워크플로우
+#### Make 고객 문의 자동 분류 워크플로우
 
 <img width="939" height="893" alt="Make 고객 문의 자동 분류 워크플로우" src="https://github.com/user-attachments/assets/190503e7-a042-42c3-8f81-71e311c2d49f" />
 ---
