@@ -61,6 +61,7 @@ flowchart LR
 
 ![Make 고객 문의 자동 분류 워크플로우](./images/project1-make-workflow.png)
 ```
+<img width="939" height="893" alt="Poject-make-workflow" src="https://github.com/user-attachments/assets/190503e7-a042-42c3-8f81-71e311c2d49f" />
 
 ---
 
