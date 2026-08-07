@@ -75,7 +75,7 @@ Google News RSS에서 수집한 IT 뉴스는 기사 제목에 AI 키워드가 �
 
 AI 관련 기사는 `AI 뉴스` 탭에, 나머지 IT 기사는 `일반 뉴스` 탭에 기록되도록 구성했다. 두 탭은 수집일시, 뉴스유형, 제목, 링크, 출처의 동일한 열 구조를 사용한다.
 
-#### AI 뉴스 시트 기록 결과 일반 뉴스 시트 기록 결과
+#### AI 뉴스 시트 기록 결과 
 
 <img width="1671" height="994" alt="3-2 구글시트_AI 뉴스 탭" src="https://github.com/user-attachments/assets/3c8adf6c-8535-4fe7-ac23-4aea0457bc7a" />
 
