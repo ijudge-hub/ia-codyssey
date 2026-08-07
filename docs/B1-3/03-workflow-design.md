@@ -60,8 +60,8 @@ flowchart LR
 <img width="1637" height="946" alt="n8n 고객 문의 자동 분류 워크플로우" src="https://github.com/user-attachments/assets/f5b5ac75-aab5-4c47-806e-f587f23cc975" />
 
 #### Make 고객 문의 자동 분류 워크플로우
+<img width="1004" height="851" alt="project1-make-workflow" src="https://github.com/user-attachments/assets/37b1ed6f-9995-482c-b512-1273fb744ba8" />
 
-<img width="939" height="893" alt="Make 고객 문의 자동 분류 워크플로우" src="https://github.com/user-attachments/assets/190503e7-a042-42c3-8f81-71e311c2d49f" />
 ---
 
 ## 3. 프로젝트 2 설계: AI 뉴스 자동 수집
