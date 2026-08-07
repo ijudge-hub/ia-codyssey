@@ -54,17 +54,9 @@ flowchart LR
 이 기준은 고객 문의를 놓치지 않고 우선 처리하기 위한 업무 규칙이다.
 
 ### 2-4. 구현 화면
+<img width="1637" height="946" alt="n8n 고객 문의 자동 분류 워크플로우" src="https://github.com/user-attachments/assets/f5b5ac75-aab5-4c47-806e-f587f23cc975" />
 
-> 아래 이미지는 업로드 후 경로를 맞춰 연결한다.
-
-```md
-![n8n 고객 문의 자동 분류 워크플로우](./images/project1-n8n-workflow.png)
-<img width="1637" height="946" alt="project1-n8n-workflow" src="https://github.com/user-attachments/assets/f5b5ac75-aab5-4c47-806e-f587f23cc975" />
-
-![Make 고객 문의 자동 분류 워크플로우](./images/project1-make-workflow.png)
-```
-<img width="939" height="893" alt="Poject-make-workflow" src="https://github.com/user-attachments/assets/190503e7-a042-42c3-8f81-71e311c2d49f" />
-
+<img width="939" height="893" alt="Make 고객 문의 자동 분류 워크플로우" src="https://github.com/user-attachments/assets/190503e7-a042-42c3-8f81-71e311c2d49f" />
 ---
 
 ## 3. 프로젝트 2 설계: AI 뉴스 자동 수집
