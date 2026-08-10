@@ -48,7 +48,8 @@
 
 
 #### n8n 실행 결과
-<img width="1537" height="857" alt="2-3n8n실행결과에서 노트 성공,분기 결과 보이는화면" src="https://github.com/user-attachments/assets/8c81e309-18f1-48e5-aaed-6e5b1cf9485f" />
+<img width="1396" height="905" alt="n8n 실행결과" src="https://github.com/user-attachments/assets/b881a1bf-a366-49af-96fc-21faa74a53dd" />
+
 
 ---
 
