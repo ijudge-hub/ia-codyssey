@@ -59,49 +59,49 @@
 
 | 필드 | 내용 |
 | --- | --- |
-| 목표 메시지 | 혼잡한 공항에서 여행자의 시간이 멈춰 있는 문제를 보여 준다. |
-| 화면 구성 | 붐비는 국제공항 보안 대기열. 검은 롱코트와 캐리어의 주인공이 뒷모습으로 서 있고, 주변 승객과 가방이 화면을 채운다. |
-| 화면 카피/내레이션 | 없음. 공항의 혼잡한 분위기와 음악의 긴장감으로 시작한다. |
-| 사용 도구와 목적 | **학습 네이토 gpt-image-2**로 혼잡 공항 기준 이미지를 생성하고, **ElevenLabs Image & Video / Veo**로 선택 이미지를 짧은 영상으로 변환했다. |
-| 입력 프롬프트 (원문) | `A premium cinematic airport technology commercial, widescreen 16:9. Inside a modern international airport security area, a crowded queue of travelers moving past with slight motion blur, rolling suitcase wheels and legs in the foreground. One adult traveler is paused in the center, seen only from behind, wearing a black tailored long coat and holding a black carry-on suitcase. No visible face. Deep navy ambient lighting with restrained teal accent lights, realistic premium advertising photography, 35mm cinematic lens, high contrast, subtle film grain. No readable text, no logos, no watermark.` |
-| 출력 결과 요약 | 혼잡한 줄과 뒷모습의 주인공이 확실히 보이는 인트로 비주얼을 확보했다. |
-| 결과 파일 | `AeroPassSC1_good he_2026-08-11T00_15_43` |
+| 목표 | 혼잡한 공항에서 여행자의 시간이 멈춰 있는 문제를 보여 준다. |
+| 구성 | 붐비는 국제공항 보안 대기열. 검은 롱코트와 캐리어의 주인공이 뒷모습으로 서 있고, 주변 승객과 가방이 화면을 채운다. |
+| 카피 | 없음. 공항의 혼잡한 분위기와 음악의 긴장감으로 시작한다. |
+| 도구 | **학습 네이토 gpt-image-2**로 혼잡 공항 기준 이미지를 생성하고, **ElevenLabs Image & Video / Veo**로 선택 이미지를 짧은 영상으로 변환했다. |
+| 프롬프트 | `A premium cinematic airport technology commercial, widescreen 16:9. Inside a modern international airport security area, a crowded queue of travelers moving past with slight motion blur, rolling suitcase wheels and legs in the foreground. One adult traveler is paused in the center, seen only from behind, wearing a black tailored long coat and holding a black carry-on suitcase. No visible face. Deep navy ambient lighting with restrained teal accent lights, realistic premium advertising photography, 35mm cinematic lens, high contrast, subtle film grain. No readable text, no logos, no watermark.` |
+| 결과 | 혼잡한 줄과 뒷모습의 주인공이 확실히 보이는 인트로 비주얼을 확보했다. |
+| 파일 | `AeroPassSC1_good he_2026-08-11T00_15_43` |
 
 ### 씬 2 — 인식 (0:04.3–0:06.3 / 약 2.0초)
 
 | 필드 | 내용 |
 | --- | --- |
-| 목표 메시지 | AeroPass는 복잡한 절차 대신 한 번의 인식으로 다음 단계로 연결된다는 점을 전달한다. |
-| 화면 구성 | 휴대폰을 슬림한 공항 스캐너의 상단 패널에 가까이 대는 클로즈업. 청록 LED가 점등된다. 배경의 공항 혼잡은 흐리게 처리한다. |
-| 화면 카피/내레이션 | 짧고 깨끗한 인식음. |
-| 사용 도구와 목적 | **학습 네이토 gpt-image-2**로 손·휴대폰·스캐너 클로즈업을 생성했다. **ElevenLabs Image & Video / Veo**와 **Adobe Firefly Generate Video**는 해당 정지 이미지에 움직임을 주기 위한 이미지-투-비디오 후보 도구로 사용했다. |
-| 입력 프롬프트 (원문) | `Extreme close-up of the upper scanning surface of the exact same tall, slim, freestanding airport scanner pedestal from the previous scene. The scanner is a narrow vertical graphite-black and silver column with a small rectangular scanner panel at the top and one thin teal LED light running vertically along its edge. It is not a large box, not a wall-mounted device, and not a different scanner design. Only the top section of this slim scanner pedestal is visible. A natural hand in a black coat sleeve holds a glossy black smartphone a few centimeters from the scanner. A thin teal scanning light glows between them. No face, no full body, no wide airport view, no text, no logos, no watermark.` |
-| 출력 결과 요약 | 스캐너·휴대폰·손의 거리와 청록 LED가 명확한 인식 클로즈업을 만들었다. |
-| 결과 파일 | `AeroScan_Sc01` |
+| 목표 | AeroPass는 복잡한 절차 대신 한 번의 인식으로 다음 단계로 연결된다는 점을 전달한다. |
+| 구성 | 휴대폰을 슬림한 공항 스캐너의 상단 패널에 가까이 대는 클로즈업. 청록 LED가 점등된다. 배경의 공항 혼잡은 흐리게 처리한다. |
+| 카피 | 짧고 깨끗한 인식음. |
+| 도구 | **학습 네이토 gpt-image-2**로 손·휴대폰·스캐너 클로즈업을 생성했다. **ElevenLabs Image & Video / Veo**와 **Adobe Firefly Generate Video**는 해당 정지 이미지에 움직임을 주기 위한 이미지-투-비디오 후보 도구로 사용했다. |
+| 프롬프트 | `Extreme close-up of the upper scanning surface of the exact same tall, slim, freestanding airport scanner pedestal from the previous scene. The scanner is a narrow vertical graphite-black and silver column with a small rectangular scanner panel at the top and one thin teal LED light running vertically along its edge. It is not a large box, not a wall-mounted device, and not a different scanner design. Only the top section of this slim scanner pedestal is visible. A natural hand in a black coat sleeve holds a glossy black smartphone a few centimeters from the scanner. A thin teal scanning light glows between them. No face, no full body, no wide airport view, no text, no logos, no watermark.` |
+| 결과 | 스캐너·휴대폰·손의 거리와 청록 LED가 명확한 인식 클로즈업을 만들었다. |
+| 파일 | `AeroScan_Sc01` |
 
 ### 씬 3 — 통과와 출발 (0:06.3–0:08.3 / 약 2.0초)
 
 | 필드 | 내용 |
 | --- | --- |
-| 목표 메시지 | 혼잡했던 대기 경험이 밝고 여유로운 출발의 순간으로 바뀐다는 가치를 보여 준다. |
-| 화면 구성 | 보안·체크인 이후의 밝은 탑승 게이트. 주인공이 캐리어를 끌고 걸으며, 대형 창밖에는 제트브리지에 연결된 여객기가 보인다. |
-| 화면 카피/내레이션 | `기다림은 짧게.` |
-| 사용 도구와 목적 | **Adobe Firefly / Gemini**로 탑승 게이트의 키 비주얼을 생성했고, **ElevenLabs Image & Video / Veo**로 짧은 이동감을 보강했다. |
-| 입력 프롬프트 (원문) | `Bright premium airport boarding gate in daytime, widescreen 16:9. A traveler in a black long coat pulls a black carry-on suitcase toward a boarding gate, seen from behind. Large windows clearly show a passenger airplane and jet bridge outside. Soft warm daylight fills the terminal. The mood is calm, optimistic, and full of anticipation. The area is a boarding gate lounge after security. No scanner, no security gate, no check-in counter, no teal scanning lights. A few distant passengers wait near the boarding entrance. Realistic cinematic photography, bright clean floor, elegant travel commercial. No readable text, no logos, no watermark.` |
-| 출력 결과 요약 | 보안 구역과 구분되는 밝은 탑승 게이트와 실제 항공기가 보이는 마무리 장면을 확보했다. |
-| 결과 파일 | `AeroScan_Sc3` |
+| 목표 | 혼잡했던 대기 경험이 밝고 여유로운 출발의 순간으로 바뀐다는 가치를 보여 준다. |
+| 구성 | 보안·체크인 이후의 밝은 탑승 게이트. 주인공이 캐리어를 끌고 걸으며, 대형 창밖에는 제트브리지에 연결된 여객기가 보인다. |
+| 카피 | `기다림은 짧게.` |
+| 도구 | **Adobe Firefly / Gemini**로 탑승 게이트의 키 비주얼을 생성했고, **ElevenLabs Image & Video / Veo**로 짧은 이동감을 보강했다. |
+| 프롬프트 | `Bright premium airport boarding gate in daytime, widescreen 16:9. A traveler in a black long coat pulls a black carry-on suitcase toward a boarding gate, seen from behind. Large windows clearly show a passenger airplane and jet bridge outside. Soft warm daylight fills the terminal. The mood is calm, optimistic, and full of anticipation. The area is a boarding gate lounge after security. No scanner, no security gate, no check-in counter, no teal scanning lights. A few distant passengers wait near the boarding entrance. Realistic cinematic photography, bright clean floor, elegant travel commercial. No readable text, no logos, no watermark.` |
+| 결과 | 보안 구역과 구분되는 밝은 탑승 게이트와 실제 항공기가 보이는 마무리 장면을 확보했다. |
+| 파일 | `AeroScan_Sc3` |
 
 ### 씬 4 — 엔드 카드 (0:08.3–0:10.0 / 약 1.7초)
 
 | 필드 | 내용 |
 | --- | --- |
-| 목표 메시지 | 브랜드와 약속을 명확하게 남긴다. |
-| 화면 구성 | 씬 3의 밝은 탑승 게이트 장면을 유지한다. `AeroPass`는 상단 중앙, 슬로건은 우측의 어두운 게이트 영역에 배치한다. 마지막 짧은 구간에 화면과 글자를 함께 페이드 아웃한다. |
-| 화면 카피/내레이션 | 화면: `AeroPass` / `기다림은 짧게, 당신의 시간은 더 길게.`<br>음성: `기다림은 짧게. 당신의 시간은 더 길게. 에어로패스.` |
-| 사용 도구와 목적 | **Final Cut Pro**로 제목, 슬로건, 페이드 아웃, 오디오 레벨을 통합했다. 편집 도구는 AI 결과물을 교체하지 않고 컷 편집·자막·간단한 오디오 조정에만 사용했다. |
-| 입력 프롬프트 | 해당 없음 — 생성된 씬 3의 결과물을 Final Cut Pro에서 엔드 카드로 확장했다. |
-| 출력 결과 요약 | 밝은 출발 장면 위에 브랜드명·슬로건을 겹쳐, 마지막 3초 안에 브랜드를 기억하도록 완성했다. |
-| 결과 파일 | 최종 편집 `AreoPass_BrandADAug11_2.mp4` |
+| 목표 | 브랜드와 약속을 명확하게 남긴다. |
+| 구성 | 씬 3의 밝은 탑승 게이트 장면을 유지한다. `AeroPass`는 상단 중앙, 슬로건은 우측의 어두운 게이트 영역에 배치한다. 마지막 짧은 구간에 화면과 글자를 함께 페이드 아웃한다. |
+| 카피 | 화면: `AeroPass` / `기다림은 짧게, 당신의 시간은 더 길게.`<br>음성: `기다림은 짧게. 당신의 시간은 더 길게. 에어로패스.` |
+| 도구 | **Final Cut Pro**로 제목, 슬로건, 페이드 아웃, 오디오 레벨을 통합했다. 편집 도구는 AI 결과물을 교체하지 않고 컷 편집·자막·간단한 오디오 조정에만 사용했다. |
+| 프롬프트 | 해당 없음 — 생성된 씬 3의 결과물을 Final Cut Pro에서 엔드 카드로 확장했다. |
+| 결과 | 밝은 출발 장면 위에 브랜드명·슬로건을 겹쳐, 마지막 3초 안에 브랜드를 기억하도록 완성했다. |
+| 파일 | 최종 편집 `AreoPass_BrandADAug11_2.mp4` |
 
 ## 5. 오디오 설계
 
@@ -122,7 +122,7 @@
 에어로패스.
 ```
 
-### BGM 입력 프롬프트
+### BGM 프롬프트
 
 ```text
 Cinematic high-end travel technology commercial, 10 seconds. Start with urgent rhythmic ticking, deep electronic bass pulse, and fast muted percussion to evoke a crowded airport rush. At 4 seconds, a sharp clean digital scan chime. Immediately open into a powerful uplifting synth swell with bright cinematic chords and a confident premium finish. Dynamic, emotional, modern, polished. No vocals, no lyrics.
@@ -217,5 +217,4 @@ Firefly와 ElevenLabs Image & Video는 참조 이미지를 첨부해 기존 결�
 | --- | --- | --- |
 | 최종 광고 영상 | `AreoPass_BrandADAug11_2.mp4` | Final Cut Pro로 편집한 약 10초 MP4 |
 | 스토리보드·제작 기록 | `AeroPass_Storyboard.md` | 본 문서 |
-| BGM | `Seamless_Journey_2026-08-10T072007.mp3` | ElevenLabs Music 생성 결과 |
-
+| BGM | `Seamless_Journey_2026-08-10T072007.mp3` | ElevenLabs Music 생
