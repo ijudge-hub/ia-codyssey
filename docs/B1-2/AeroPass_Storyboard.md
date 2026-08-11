@@ -77,7 +77,7 @@
 | 도구 | **학습 네이토 gpt-image-2**로 손·휴대폰·스캐너 클로즈업을 생성했다. **ElevenLabs Image & Video / Veo**와 **Adobe Firefly Generate Video**는 해당 정지 이미지에 움직임을 주기 위한 이미지-투-비디오 후보 도구로 사용했다. |
 | 프롬프트 | `Extreme close-up of the upper scanning surface of the exact same tall, slim, freestanding airport scanner pedestal from the previous scene. The scanner is a narrow vertical graphite-black and silver column with a small rectangular scanner panel at the top and one thin teal LED light running vertically along its edge. It is not a large box, not a wall-mounted device, and not a different scanner design. Only the top section of this slim scanner pedestal is visible. A natural hand in a black coat sleeve holds a glossy black smartphone a few centimeters from the scanner. A thin teal scanning light glows between them. No face, no full body, no wide airport view, no text, no logos, no watermark.` |
 | 결과 | 스캐너·휴대폰·손의 거리와 청록 LED가 명확한 인식 클로즈업을 만들었다. |
-| 파일 | `AeroScan_Sc01` |
+| 파일 | `AeroPass_Sc02` |
 
 ### 씬 3 — 통과와 출발 (0:06.3–0:08.3 / 약 2.0초)
 
@@ -89,7 +89,7 @@
 | 도구 | **Adobe Firefly / Gemini**로 탑승 게이트의 키 비주얼을 생성했고, **ElevenLabs Image & Video / Veo**로 짧은 이동감을 보강했다. |
 | 프롬프트 | `Bright premium airport boarding gate in daytime, widescreen 16:9. A traveler in a black long coat pulls a black carry-on suitcase toward a boarding gate, seen from behind. Large windows clearly show a passenger airplane and jet bridge outside. Soft warm daylight fills the terminal. The mood is calm, optimistic, and full of anticipation. The area is a boarding gate lounge after security. No scanner, no security gate, no check-in counter, no teal scanning lights. A few distant passengers wait near the boarding entrance. Realistic cinematic photography, bright clean floor, elegant travel commercial. No readable text, no logos, no watermark.` |
 | 결과 | 보안 구역과 구분되는 밝은 탑승 게이트와 실제 항공기가 보이는 마무리 장면을 확보했다. |
-| 파일 | `AeroScan_Sc3` |
+| 파일 | `AeroPass_Sc03` |
 
 ### 씬 4 — 엔드 카드 (0:08.3–0:10.0 / 약 1.7초)
 
