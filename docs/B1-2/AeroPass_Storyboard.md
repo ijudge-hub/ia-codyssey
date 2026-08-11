@@ -217,4 +217,5 @@ Firefly와 ElevenLabs Image & Video는 참조 이미지를 첨부해 기존 결�
 | --- | --- | --- |
 | 최종 광고 영상 | `AreoPass_BrandADAug11_2.mp4` | Final Cut Pro로 편집한 약 10초 MP4 |
 | 스토리보드·제작 기록 | `AeroPass_Storyboard.md` | 본 문서 |
-| BGM | `Seamless_Journey_2026-08-10T072007.mp3` | ElevenLabs Music 생
+| BGM | `Seamless_Journey_2026-08-10T072007.mp3` | ElevenLabs Music 생성 |
+| Voice | `AeroPass_기다림은 짧게_elevenLabs.mp3` | ElevenLabs Music 생성 |
